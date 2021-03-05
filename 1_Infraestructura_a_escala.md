@@ -120,3 +120,16 @@ An organization should have published policies on what types of changes fall int
 Regardless of the type of change, medium to large organizations have a change control board that reviews changes, either daily or a few times a week. The board approves changes that are then executed by engineers. Changes may not be allowed during certain times of the year. If you are working for an online retailer, then no changes may be allowed to the infrastructure during the holiday season in an effort to minimize anything that affects sales. In the United States, a “freeze” might go into effect starting November 1 and lasting until January 5, because during this time a lot of online retail shopping happens for the holiday season.
 
 A question may arise regarding how change control integrates into CI/CD or into the model where code is pushed to production in an automated manner as soon as it is ready. There are times when the CI/CD model should be placed on hold, such as during the freeze period for online retailers. During other times, software itself can integrate with a change control system so that all changes are documented, even if they are pushed out automatically. In addition, large-scale changes such as upgrading the entire code base should perhaps be reviewed and supervised by a team of engineers, instead of allowing it to be fully automated.
+
+## Release Management
+
+Release management is the process of planning, designing, and building the framework needed to bring a product or software into production. When it comes to infrastructure management, release management plays the role of ensuring that infrastructure components are deployed into production in an efficient manner. Relating to software, release management ensures that new code is delivered to the end users or on end systems that will be using the code. Some of the items that should be tracked as part of release management are as follows:
+
+- Feature requests
+
+- Software packaging tools
+
+- Delivery methodology
+
+- Issues and risks with the release
+
